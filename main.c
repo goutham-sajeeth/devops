@@ -1,6 +1,11 @@
 #include<stdio.h>
 
 int main(){
+	int i;
 	printf("Hello World\n");
+	for(i=0;i<5;i++){
+		printf("%d ", i);
+	}
+	printf("\nProgram ended.\n");
 	return 0;
 }
