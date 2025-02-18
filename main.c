@@ -6,6 +6,9 @@ int main(){
 	for(i=0;i<5;i++){
 		printf("%d ", i);
 	}
-	printf("\nProgram ended.\n");
+	printf("\nEnter first name: ");
+	char arr[10];
+	scanf("%s", arr);
+	printf("\nProgram ended %s.\n", arr);
 	return 0;
 }
